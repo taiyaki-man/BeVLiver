@@ -1,0 +1,49 @@
+# --- Unityによって自動生成されるフォルダ ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+MemoryCaptures/
+
+# --- ビルド後のローカルキャッシュやログ ---
+sysinfo.txt
+*.stacktrace
+*.log
+
+# --- IDE関連（Visual Studio, JetBrains Rider など） ---
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# --- OS依存ファイル（MacやWindows） ---
+.DS_Store
+Thumbs.db
+
+# --- Unity Collaborate ---
+.collabignore
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- 他ユーザーの設定が混ざらないようにする ---
+UserSettings/
+
+# --- Git LFSを使う場合の除外候補（必要に応じて） ---
+*.psd
+*.png
+*.mp3
+*.fbx
+*.wav
+*.mp4
