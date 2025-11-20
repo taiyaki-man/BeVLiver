@@ -14,5 +14,6 @@ public class TestScript : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, 100 * Time.deltaTime, 0);
+
     }
 }

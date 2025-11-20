@@ -1,4 +1,4 @@
-# --- Unityによって自動生成されるフォルダ ---
+# ========== Unity 標準 ==========
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,12 +6,11 @@
 [Bb]uilds/
 MemoryCaptures/
 
-# --- ビルド後のローカルキャッシュやログ ---
-sysinfo.txt
-*.stacktrace
-*.log
+# OS依存
+.DS_Store
+Thumbs.db
 
-# --- IDE関連（Visual Studio, JetBrains Rider など） ---
+# Visual Studio / VSCode
 .vscode/
 *.csproj
 *.unityproj
@@ -26,24 +25,31 @@ sysinfo.txt
 *.pdb
 *.mdb
 
-# --- OS依存ファイル（MacやWindows） ---
-.DS_Store
-Thumbs.db
-
-# --- Unity Collaborate ---
+# Unity Collaborate
 .collabignore
 
-# --- JetBrains Rider ---
-.idea/
-*.sln.iml
+# Unityメタファイルのキャッシュ
+*.meta~
 
-# --- 他ユーザーの設定が混ざらないようにする ---
+# UserSettings（チームで共有しないなら除外）
 UserSettings/
 
-# --- Git LFSを使う場合の除外候補（必要に応じて） ---
-*.psd
-*.png
-*.mp3
-*.fbx
-*.wav
-*.mp4
+# ========== Live2D Cubism SDK 対応 ==========
+
+# Live2D一時ファイル・バックアップ
+*.bak
+*.backup
+*.tmp
+*.log
+
+# iOS用ビルド成果物
+Assets/Live2D/Cubism/Plugins/iOS/Debug-iphoneos/
+Assets/Live2D/Cubism/Plugins/iOS/Debug-iphonesimulator/
+Assets/Live2D/Cubism/Plugins/iOS/Release-iphoneos/
+Assets/Live2D/Cubism/Plugins/iOS/Release-iphonesimulator/
+
+# サンプル（使わない場合は除外）
+Assets/Live2D/Cubism/Samples/
+
+# macOSゴミファイル
+**/.DS_Store
